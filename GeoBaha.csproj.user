@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="CachedCrystalReport1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="CachedCrystalReport3.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="CachedCrystalReport4.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="CrystalReport1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="CrystalReport3.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="CrystalReport4.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Frm_AsnadDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frm_AsnadDetail_New.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frm_AsnadGhaleb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frm_AsnadGhaleb_New.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frm_AsnadList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frm_AsnadList_New.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frm_AsnadOnvan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frm_AsnadOnvan_New.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frm_Calculate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frm_Calculate_New.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frm_CopySanad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frm_CopySanad_New.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frm_Enteghal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frm_Enteghal_New.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frm_Factor_a.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frm_Factor_a_New.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frm_Factor_b.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frm_Factor_b_New.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frm_Fehrest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frm_FehrestDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frm_FehrestDetail_New.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frm_Fehrest_New.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frm_ItemSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frm_ItemSelect_New.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frm_Karfarma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frm_Karfarma_New.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frm_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frm_Main_New.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frm_PrintDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frm_PrintDialog_New.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frm_PrintSanad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frm_PrintSanad_New.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frm_Project.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frm_Project_New.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frm_ZarayebBakhshname.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frm_ZarayebBakhshname_New.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frm_ZarayebMantaghe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frm_ZarayebMantaghe_New.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
