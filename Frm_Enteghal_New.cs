@@ -50,8 +50,16 @@ namespace GeoBaha
             TableSanadSum = new DataTable();
             AsnadDetailTable = new DataTable();
         }
+        private void Frm_Enteghal_New_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+            {
+                this.Close();
+            }
+        }
 
-private void Frm_Enteghal_New_Load(object sender, EventArgs e)
+
+        private void Frm_Enteghal_New_Load(object sender, EventArgs e)
 		{
 			base.TopMost = false;
 			base.KeyPreview = true;

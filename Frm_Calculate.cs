@@ -168,488 +168,653 @@ namespace GeoBaha
 		[System.Diagnostics.DebuggerStepThrough]
 		private void InitializeComponent()
 		{
-			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GeoBaha.Frm_Calculate));
-			this.pnl_40101 = new System.Windows.Forms.Panel();
-			this.txt_40101C2 = new System.Windows.Forms.TextBox();
-			this.txt_40101C1 = new System.Windows.Forms.TextBox();
-			this.Label6 = new System.Windows.Forms.Label();
-			this.txt_40101B = new System.Windows.Forms.TextBox();
-			this.Txt_D = new System.Windows.Forms.TextBox();
-			this.txt_rs = new System.Windows.Forms.TextBox();
-			this.Label4 = new System.Windows.Forms.Label();
-			this.Label3 = new System.Windows.Forms.Label();
-			this.Label2 = new System.Windows.Forms.Label();
-			this.Label1 = new System.Windows.Forms.Label();
-			this.pnl_40201 = new System.Windows.Forms.Panel();
-			this.chk_40201 = new System.Windows.Forms.CheckBox();
-			this.txt_40201C1 = new System.Windows.Forms.TextBox();
-			this.txt_40201C2 = new System.Windows.Forms.TextBox();
-			this.Label5 = new System.Windows.Forms.Label();
-			this.Label8 = new System.Windows.Forms.Label();
-			this.txt_40201B = new System.Windows.Forms.TextBox();
-			this.txt_F = new System.Windows.Forms.TextBox();
-			this.Label7 = new System.Windows.Forms.Label();
-			this.Label10 = new System.Windows.Forms.Label();
-			this.pnl_40301 = new System.Windows.Forms.Panel();
-			this.txt_Fasl_3 = new System.Windows.Forms.TextBox();
-			this.Label22 = new System.Windows.Forms.Label();
-			this.txt_Fasl_6 = new System.Windows.Forms.TextBox();
-			this.Label15 = new System.Windows.Forms.Label();
-			this.chk_40301 = new System.Windows.Forms.CheckBox();
-			this.txt_40301C1 = new System.Windows.Forms.TextBox();
-			this.txt_40301C2 = new System.Windows.Forms.TextBox();
-			this.Label9 = new System.Windows.Forms.Label();
-			this.Label11 = new System.Windows.Forms.Label();
-			this.txt_40301B = new System.Windows.Forms.TextBox();
-			this.Label14 = new System.Windows.Forms.Label();
-			this.txt_L = new System.Windows.Forms.TextBox();
-			this.Label12 = new System.Windows.Forms.Label();
-			this.pnl_40401 = new System.Windows.Forms.Panel();
-			this.chk_40401 = new System.Windows.Forms.CheckBox();
-			this.btn_Find_b = new System.Windows.Forms.Button();
-			this.btn_Find_a = new System.Windows.Forms.Button();
-			this.txt_b = new System.Windows.Forms.TextBox();
-			this.Label21 = new System.Windows.Forms.Label();
-			this.Label20 = new System.Windows.Forms.Label();
-			this.txt_S = new System.Windows.Forms.TextBox();
-			this.Label13 = new System.Windows.Forms.Label();
-			this.txt_40401B = new System.Windows.Forms.TextBox();
-			this.txt_a = new System.Windows.Forms.TextBox();
-			this.txt_k1 = new System.Windows.Forms.TextBox();
-			this.Label16 = new System.Windows.Forms.Label();
-			this.Label17 = new System.Windows.Forms.Label();
-			this.Label18 = new System.Windows.Forms.Label();
-			this.Label19 = new System.Windows.Forms.Label();
-			this.pnl_Command = new System.Windows.Forms.Panel();
-			this.btn_Ok = new System.Windows.Forms.Button();
-			this.btn_Cancel = new System.Windows.Forms.Button();
-			this.pnl_40101.SuspendLayout();
-			this.pnl_40201.SuspendLayout();
-			this.pnl_40301.SuspendLayout();
-			this.pnl_40401.SuspendLayout();
-			this.pnl_Command.SuspendLayout();
-			base.SuspendLayout();
-			this.pnl_40101.Controls.Add(this.txt_40101C2);
-			this.pnl_40101.Controls.Add(this.txt_40101C1);
-			this.pnl_40101.Controls.Add(this.Label6);
-			this.pnl_40101.Controls.Add(this.txt_40101B);
-			this.pnl_40101.Controls.Add(this.Txt_D);
-			this.pnl_40101.Controls.Add(this.txt_rs);
-			this.pnl_40101.Controls.Add(this.Label4);
-			this.pnl_40101.Controls.Add(this.Label3);
-			this.pnl_40101.Controls.Add(this.Label2);
-			this.pnl_40101.Controls.Add(this.Label1);
-			this.pnl_40101.Location = new System.Drawing.Point(28, 26);
-			this.pnl_40101.Name = "pnl_40101";
-			this.pnl_40101.Size = new System.Drawing.Size(481, 90);
-			this.pnl_40101.TabIndex = 0;
-			this.txt_40101C2.BackColor = System.Drawing.SystemColors.Control;
-			this.txt_40101C2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-			this.txt_40101C2.ForeColor = System.Drawing.Color.Blue;
-			this.txt_40101C2.Location = new System.Drawing.Point(188, 17);
-			this.txt_40101C2.Name = "txt_40101C2";
-			this.txt_40101C2.Size = new System.Drawing.Size(41, 13);
-			this.txt_40101C2.TabIndex = 12;
-			this.txt_40101C2.Text = "123000";
-			this.txt_40101C1.BackColor = System.Drawing.SystemColors.Control;
-			this.txt_40101C1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-			this.txt_40101C1.ForeColor = System.Drawing.Color.Blue;
-			this.txt_40101C1.Location = new System.Drawing.Point(121, 17);
-			this.txt_40101C1.Name = "txt_40101C1";
-			this.txt_40101C1.Size = new System.Drawing.Size(52, 13);
-			this.txt_40101C1.TabIndex = 11;
-			this.txt_40101C1.Text = "11740000";
-			this.Label6.AutoSize = true;
-			this.Label6.Location = new System.Drawing.Point(174, 17);
-			this.Label6.Name = "Label6";
-			this.Label6.Size = new System.Drawing.Size(13, 13);
-			this.Label6.TabIndex = 9;
-			this.Label6.Text = "+";
-			this.txt_40101B.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 178);
-			this.txt_40101B.ForeColor = System.Drawing.Color.Red;
-			this.txt_40101B.Location = new System.Drawing.Point(332, 13);
-			this.txt_40101B.Name = "txt_40101B";
-			this.txt_40101B.Size = new System.Drawing.Size(90, 20);
-			this.txt_40101B.TabIndex = 7;
-			this.Txt_D.Location = new System.Drawing.Point(357, 50);
-			this.Txt_D.Name = "Txt_D";
-			this.Txt_D.Size = new System.Drawing.Size(90, 20);
-			this.Txt_D.TabIndex = 6;
-			this.txt_rs.Enabled = false;
-			this.txt_rs.Location = new System.Drawing.Point(134, 50);
-			this.txt_rs.Name = "txt_rs";
-			this.txt_rs.Size = new System.Drawing.Size(57, 20);
-			this.txt_rs.TabIndex = 5;
-			this.Label4.AutoSize = true;
-			this.Label4.Location = new System.Drawing.Point(235, 53);
-			this.Label4.Name = "Label4";
-			this.Label4.Size = new System.Drawing.Size(123, 13);
-			this.Label4.TabIndex = 3;
-			this.Label4.Text = "= مجموع عمق حفاری (D) ";
-			this.Label3.AutoSize = true;
-			this.Label3.Location = new System.Drawing.Point(26, 53);
-			this.Label3.Name = "Label3";
-			this.Label3.Size = new System.Drawing.Size(119, 13);
-			this.Label3.TabIndex = 2;
-			this.Label3.Text = "=  ضریب منطقه ای  ( rs ) ";
-			this.Label2.ForeColor = System.Drawing.Color.Blue;
-			this.Label2.Location = new System.Drawing.Point(229, 16);
-			this.Label2.Name = "Label2";
-			this.Label2.Size = new System.Drawing.Size(100, 13);
-			this.Label2.TabIndex = 1;
-			this.Label2.Text = " = * ( 1 + rs ) / 2 * D";
-			this.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			this.Label1.AutoSize = true;
-			this.Label1.ForeColor = System.Drawing.Color.Blue;
-			this.Label1.Location = new System.Drawing.Point(59, 16);
-			this.Label1.Name = "Label1";
-			this.Label1.Size = new System.Drawing.Size(64, 13);
-			this.Label1.TabIndex = 0;
-			this.Label1.Text = "=بهای واحد ";
-			this.pnl_40201.Controls.Add(this.chk_40201);
-			this.pnl_40201.Controls.Add(this.txt_40201C1);
-			this.pnl_40201.Controls.Add(this.txt_40201C2);
-			this.pnl_40201.Controls.Add(this.Label5);
-			this.pnl_40201.Controls.Add(this.Label8);
-			this.pnl_40201.Controls.Add(this.txt_40201B);
-			this.pnl_40201.Controls.Add(this.txt_F);
-			this.pnl_40201.Controls.Add(this.Label7);
-			this.pnl_40201.Controls.Add(this.Label10);
-			this.pnl_40201.Location = new System.Drawing.Point(28, 131);
-			this.pnl_40201.Name = "pnl_40201";
-			this.pnl_40201.Size = new System.Drawing.Size(481, 90);
-			this.pnl_40201.TabIndex = 1;
-			this.chk_40201.Anchor = System.Windows.Forms.AnchorStyles.Right;
-			this.chk_40201.Location = new System.Drawing.Point(73, 52);
-			this.chk_40201.Name = "chk_40201";
-			this.chk_40201.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-			this.chk_40201.Size = new System.Drawing.Size(138, 17);
-			this.chk_40201.TabIndex = 17;
-			this.chk_40201.Text = "با اعمال ضریب منطقه ای";
-			this.chk_40201.UseVisualStyleBackColor = true;
-			this.txt_40201C1.BackColor = System.Drawing.SystemColors.Control;
-			this.txt_40201C1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-			this.txt_40201C1.ForeColor = System.Drawing.Color.Blue;
-			this.txt_40201C1.Location = new System.Drawing.Point(168, 17);
-			this.txt_40201C1.Name = "txt_40201C1";
-			this.txt_40201C1.Size = new System.Drawing.Size(50, 13);
-			this.txt_40201C1.TabIndex = 16;
-			this.txt_40201C1.Text = "4370000";
-			this.txt_40201C2.BackColor = System.Drawing.SystemColors.Control;
-			this.txt_40201C2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-			this.txt_40201C2.ForeColor = System.Drawing.Color.Blue;
-			this.txt_40201C2.Location = new System.Drawing.Point(229, 17);
-			this.txt_40201C2.Name = "txt_40201C2";
-			this.txt_40201C2.Size = new System.Drawing.Size(23, 13);
-			this.txt_40201C2.TabIndex = 15;
-			this.txt_40201C2.Text = "0.05";
-			this.Label5.AutoSize = true;
-			this.Label5.ForeColor = System.Drawing.Color.Blue;
-			this.Label5.Location = new System.Drawing.Point(215, 17);
-			this.Label5.Name = "Label5";
-			this.Label5.Size = new System.Drawing.Size(13, 13);
-			this.Label5.TabIndex = 14;
-			this.Label5.Text = "+";
-			this.Label8.ForeColor = System.Drawing.Color.Blue;
-			this.Label8.Location = new System.Drawing.Point(252, 17);
-			this.Label8.Name = "Label8";
-			this.Label8.Size = new System.Drawing.Size(32, 13);
-			this.Label8.TabIndex = 13;
-			this.Label8.Text = "= * F ";
-			this.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			this.txt_40201B.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 178);
-			this.txt_40201B.ForeColor = System.Drawing.Color.Red;
-			this.txt_40201B.Location = new System.Drawing.Point(287, 14);
-			this.txt_40201B.Name = "txt_40201B";
-			this.txt_40201B.Size = new System.Drawing.Size(90, 20);
-			this.txt_40201B.TabIndex = 7;
-			this.txt_F.Location = new System.Drawing.Point(309, 50);
-			this.txt_F.Name = "txt_F";
-			this.txt_F.Size = new System.Drawing.Size(90, 20);
-			this.txt_F.TabIndex = 6;
-			this.Label7.AutoSize = true;
-			this.Label7.Location = new System.Drawing.Point(211, 53);
-			this.Label7.Name = "Label7";
-			this.Label7.Size = new System.Drawing.Size(107, 13);
-			this.Label7.TabIndex = 3;
-			this.Label7.Text = "= مجموع فصل 2 ( F )  ";
-			this.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-			this.Label10.AutoSize = true;
-			this.Label10.ForeColor = System.Drawing.Color.Blue;
-			this.Label10.Location = new System.Drawing.Point(103, 16);
-			this.Label10.Name = "Label10";
-			this.Label10.Size = new System.Drawing.Size(64, 13);
-			this.Label10.TabIndex = 0;
-			this.Label10.Text = "=بهای واحد ";
-			this.pnl_40301.Controls.Add(this.txt_Fasl_3);
-			this.pnl_40301.Controls.Add(this.Label22);
-			this.pnl_40301.Controls.Add(this.txt_Fasl_6);
-			this.pnl_40301.Controls.Add(this.Label15);
-			this.pnl_40301.Controls.Add(this.chk_40301);
-			this.pnl_40301.Controls.Add(this.txt_40301C1);
-			this.pnl_40301.Controls.Add(this.txt_40301C2);
-			this.pnl_40301.Controls.Add(this.Label9);
-			this.pnl_40301.Controls.Add(this.Label11);
-			this.pnl_40301.Controls.Add(this.txt_40301B);
-			this.pnl_40301.Controls.Add(this.Label14);
-			this.pnl_40301.Controls.Add(this.txt_L);
-			this.pnl_40301.Controls.Add(this.Label12);
-			this.pnl_40301.Location = new System.Drawing.Point(28, 236);
-			this.pnl_40301.Name = "pnl_40301";
-			this.pnl_40301.Size = new System.Drawing.Size(481, 155);
-			this.pnl_40301.TabIndex = 2;
-			this.txt_Fasl_3.Location = new System.Drawing.Point(286, 50);
-			this.txt_Fasl_3.Name = "txt_Fasl_3";
-			this.txt_Fasl_3.Size = new System.Drawing.Size(90, 20);
-			this.txt_Fasl_3.TabIndex = 27;
-			this.Label22.AutoSize = true;
-			this.Label22.Location = new System.Drawing.Point(201, 53);
-			this.Label22.Name = "Label22";
-			this.Label22.Size = new System.Drawing.Size(86, 13);
-			this.Label22.TabIndex = 26;
-			this.Label22.Text = " = مجموع فصل 3 ";
-			this.txt_Fasl_6.Location = new System.Drawing.Point(286, 76);
-			this.txt_Fasl_6.Name = "txt_Fasl_6";
-			this.txt_Fasl_6.Size = new System.Drawing.Size(90, 20);
-			this.txt_Fasl_6.TabIndex = 25;
-			this.Label15.AutoSize = true;
-			this.Label15.Location = new System.Drawing.Point(197, 79);
-			this.Label15.Name = "Label15";
-			this.Label15.Size = new System.Drawing.Size(89, 13);
-			this.Label15.TabIndex = 24;
-			this.Label15.Text = "= مجموع فصل 6   ";
-			this.chk_40301.Anchor = System.Windows.Forms.AnchorStyles.Right;
-			this.chk_40301.Location = new System.Drawing.Point(57, 78);
-			this.chk_40301.Name = "chk_40301";
-			this.chk_40301.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-			this.chk_40301.Size = new System.Drawing.Size(138, 17);
-			this.chk_40301.TabIndex = 23;
-			this.chk_40301.Text = "با اعمال ضریب منطقه ای";
-			this.chk_40301.UseVisualStyleBackColor = true;
-			this.txt_40301C1.BackColor = System.Drawing.SystemColors.Control;
-			this.txt_40301C1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-			this.txt_40301C1.ForeColor = System.Drawing.Color.Blue;
-			this.txt_40301C1.Location = new System.Drawing.Point(167, 16);
-			this.txt_40301C1.Name = "txt_40301C1";
-			this.txt_40301C1.Size = new System.Drawing.Size(50, 13);
-			this.txt_40301C1.TabIndex = 22;
-			this.txt_40301C1.Text = "1531000";
-			this.txt_40301C2.BackColor = System.Drawing.SystemColors.Control;
-			this.txt_40301C2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-			this.txt_40301C2.ForeColor = System.Drawing.Color.Blue;
-			this.txt_40301C2.Location = new System.Drawing.Point(228, 16);
-			this.txt_40301C2.Name = "txt_40301C2";
-			this.txt_40301C2.Size = new System.Drawing.Size(23, 13);
-			this.txt_40301C2.TabIndex = 21;
-			this.txt_40301C2.Text = "0.07";
-			this.Label9.AutoSize = true;
-			this.Label9.ForeColor = System.Drawing.Color.Blue;
-			this.Label9.Location = new System.Drawing.Point(214, 16);
-			this.Label9.Name = "Label9";
-			this.Label9.Size = new System.Drawing.Size(13, 13);
-			this.Label9.TabIndex = 20;
-			this.Label9.Text = "+";
-			this.Label11.ForeColor = System.Drawing.Color.Blue;
-			this.Label11.Location = new System.Drawing.Point(251, 16);
-			this.Label11.Name = "Label11";
-			this.Label11.Size = new System.Drawing.Size(32, 13);
-			this.Label11.TabIndex = 19;
-			this.Label11.Text = "= * L ";
-			this.Label11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			this.txt_40301B.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 178);
-			this.txt_40301B.ForeColor = System.Drawing.Color.Red;
-			this.txt_40301B.Location = new System.Drawing.Point(286, 13);
-			this.txt_40301B.Name = "txt_40301B";
-			this.txt_40301B.Size = new System.Drawing.Size(90, 20);
-			this.txt_40301B.TabIndex = 18;
-			this.Label14.AutoSize = true;
-			this.Label14.ForeColor = System.Drawing.Color.Blue;
-			this.Label14.Location = new System.Drawing.Point(102, 15);
-			this.Label14.Name = "Label14";
-			this.Label14.Size = new System.Drawing.Size(64, 13);
-			this.Label14.TabIndex = 17;
-			this.Label14.Text = " =بهای واحد";
-			this.txt_L.Location = new System.Drawing.Point(286, 102);
-			this.txt_L.Name = "txt_L";
-			this.txt_L.Size = new System.Drawing.Size(90, 20);
-			this.txt_L.TabIndex = 6;
-			this.Label12.AutoSize = true;
-			this.Label12.Location = new System.Drawing.Point(157, 105);
-			this.Label12.Name = "Label12";
-			this.Label12.Size = new System.Drawing.Size(128, 13);
-			this.Label12.TabIndex = 3;
-			this.Label12.Text = "= مجموع فصول 3 و 6  ( L )";
-			this.pnl_40401.Controls.Add(this.chk_40401);
-			this.pnl_40401.Controls.Add(this.btn_Find_b);
-			this.pnl_40401.Controls.Add(this.btn_Find_a);
-			this.pnl_40401.Controls.Add(this.txt_b);
-			this.pnl_40401.Controls.Add(this.Label21);
-			this.pnl_40401.Controls.Add(this.Label20);
-			this.pnl_40401.Controls.Add(this.txt_S);
-			this.pnl_40401.Controls.Add(this.Label13);
-			this.pnl_40401.Controls.Add(this.txt_40401B);
-			this.pnl_40401.Controls.Add(this.txt_a);
-			this.pnl_40401.Controls.Add(this.txt_k1);
-			this.pnl_40401.Controls.Add(this.Label16);
-			this.pnl_40401.Controls.Add(this.Label17);
-			this.pnl_40401.Controls.Add(this.Label18);
-			this.pnl_40401.Controls.Add(this.Label19);
-			this.pnl_40401.Location = new System.Drawing.Point(28, 397);
-			this.pnl_40401.Name = "pnl_40401";
-			this.pnl_40401.Size = new System.Drawing.Size(481, 167);
-			this.pnl_40401.TabIndex = 3;
-			this.chk_40401.Anchor = System.Windows.Forms.AnchorStyles.Right;
-			this.chk_40401.Location = new System.Drawing.Point(59, 49);
-			this.chk_40401.Name = "chk_40401";
-			this.chk_40401.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-			this.chk_40401.Size = new System.Drawing.Size(138, 17);
-			this.chk_40401.TabIndex = 210;
-			this.chk_40401.Text = "با اعمال ضریب منطقه ای";
-			this.chk_40401.UseVisualStyleBackColor = true;
-			this.btn_Find_b.BackColor = System.Drawing.Color.LightGray;
-			this.btn_Find_b.Font = new System.Drawing.Font("Times New Roman", 9.75f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 178);
-			this.btn_Find_b.ForeColor = System.Drawing.Color.Black;
-			this.btn_Find_b.Image = (System.Drawing.Image)resources.GetObject("btn_Find_b.Image");
-			this.btn_Find_b.Location = new System.Drawing.Point(439, 126);
-			this.btn_Find_b.Name = "btn_Find_b";
-			this.btn_Find_b.Size = new System.Drawing.Size(24, 24);
-			this.btn_Find_b.TabIndex = 209;
-			this.btn_Find_b.UseVisualStyleBackColor = false;
-			this.btn_Find_a.BackColor = System.Drawing.Color.LightGray;
-			this.btn_Find_a.Font = new System.Drawing.Font("Times New Roman", 9.75f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 178);
-			this.btn_Find_a.ForeColor = System.Drawing.Color.Black;
-			this.btn_Find_a.Image = (System.Drawing.Image)resources.GetObject("btn_Find_a.Image");
-			this.btn_Find_a.Location = new System.Drawing.Point(439, 99);
-			this.btn_Find_a.Name = "btn_Find_a";
-			this.btn_Find_a.Size = new System.Drawing.Size(24, 24);
-			this.btn_Find_a.TabIndex = 208;
-			this.btn_Find_a.UseVisualStyleBackColor = false;
-			this.txt_b.Location = new System.Drawing.Point(349, 128);
-			this.txt_b.Name = "txt_b";
-			this.txt_b.Size = new System.Drawing.Size(90, 20);
-			this.txt_b.TabIndex = 12;
-			this.Label21.AutoSize = true;
-			this.Label21.Location = new System.Drawing.Point(2, 131);
-			this.Label21.Name = "Label21";
-			this.Label21.Size = new System.Drawing.Size(349, 13);
-			this.Label21.TabIndex = 11;
-			this.Label21.Text = "=ضریب مربوط به مستحدثات از جدول 4 بخش اول فهرست بهای ژئوتکنیک ( b )";
-			this.Label20.AutoSize = true;
-			this.Label20.Location = new System.Drawing.Point(172, 104);
-			this.Label20.Name = "Label20";
-			this.Label20.Size = new System.Drawing.Size(57, 13);
-			this.Label20.TabIndex = 10;
-			this.Label20.Text = "( a8 تا a1 )";
-			this.Label20.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-			this.txt_S.Location = new System.Drawing.Point(349, 47);
-			this.txt_S.Name = "txt_S";
-			this.txt_S.Size = new System.Drawing.Size(90, 20);
-			this.txt_S.TabIndex = 9;
-			this.Label13.AutoSize = true;
-			this.Label13.Location = new System.Drawing.Point(202, 50);
-			this.Label13.Name = "Label13";
-			this.Label13.Size = new System.Drawing.Size(149, 13);
-			this.Label13.TabIndex = 8;
-			this.Label13.Text = "= مجموع فصول 1 ، 2 و 3 ( S )  ";
-			this.txt_40401B.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 178);
-			this.txt_40401B.ForeColor = System.Drawing.Color.Red;
-			this.txt_40401B.Location = new System.Drawing.Point(260, 11);
-			this.txt_40401B.Name = "txt_40401B";
-			this.txt_40401B.Size = new System.Drawing.Size(90, 20);
-			this.txt_40401B.TabIndex = 7;
-			this.txt_a.Location = new System.Drawing.Point(349, 101);
-			this.txt_a.Name = "txt_a";
-			this.txt_a.Size = new System.Drawing.Size(90, 20);
-			this.txt_a.TabIndex = 6;
-			this.txt_k1.Location = new System.Drawing.Point(349, 74);
-			this.txt_k1.Name = "txt_k1";
-			this.txt_k1.Size = new System.Drawing.Size(90, 20);
-			this.txt_k1.TabIndex = 5;
-			this.Label16.AutoSize = true;
-			this.Label16.Location = new System.Drawing.Point(244, 104);
-			this.Label16.Name = "Label16";
-			this.Label16.Size = new System.Drawing.Size(106, 13);
-			this.Label16.TabIndex = 3;
-			this.Label16.Text = "=حاصل ضرب ضرایب a";
-			this.Label16.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-			this.Label17.AutoSize = true;
-			this.Label17.Location = new System.Drawing.Point(46, 77);
-			this.Label17.Name = "Label17";
-			this.Label17.Size = new System.Drawing.Size(305, 13);
-			this.Label17.TabIndex = 2;
-			this.Label17.Text = "=ضریب حق الزحمه جدول 1 بخش اول فهرست بهای ژئوتکنیک ( k1 ) ";
-			this.Label18.AutoSize = true;
-			this.Label18.ForeColor = System.Drawing.Color.Blue;
-			this.Label18.Location = new System.Drawing.Point(193, 14);
-			this.Label18.Name = "Label18";
-			this.Label18.Size = new System.Drawing.Size(65, 13);
-			this.Label18.TabIndex = 1;
-			this.Label18.Text = "=k1 .a .b .S ";
-			this.Label19.AutoSize = true;
-			this.Label19.ForeColor = System.Drawing.Color.Blue;
-			this.Label19.Location = new System.Drawing.Point(127, 13);
-			this.Label19.Name = "Label19";
-			this.Label19.Size = new System.Drawing.Size(64, 13);
-			this.Label19.TabIndex = 0;
-			this.Label19.Text = "=بهای واحد ";
-			this.pnl_Command.Controls.Add(this.btn_Ok);
-			this.pnl_Command.Controls.Add(this.btn_Cancel);
-			this.pnl_Command.Location = new System.Drawing.Point(109, 577);
-			this.pnl_Command.Name = "pnl_Command";
-			this.pnl_Command.Size = new System.Drawing.Size(321, 31);
-			this.pnl_Command.TabIndex = 6;
-			this.btn_Ok.Location = new System.Drawing.Point(242, 4);
-			this.btn_Ok.Name = "btn_Ok";
-			this.btn_Ok.Size = new System.Drawing.Size(75, 23);
-			this.btn_Ok.TabIndex = 6;
-			this.btn_Ok.Text = "Ok";
-			this.btn_Ok.UseVisualStyleBackColor = true;
-			this.btn_Cancel.Location = new System.Drawing.Point(3, 4);
-			this.btn_Cancel.Name = "btn_Cancel";
-			this.btn_Cancel.Size = new System.Drawing.Size(75, 23);
-			this.btn_Cancel.TabIndex = 5;
-			this.btn_Cancel.Text = "Cancel";
-			this.btn_Cancel.UseVisualStyleBackColor = true;
-			base.AutoScaleDimensions = new System.Drawing.SizeF(6f, 13f);
-			base.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			base.ClientSize = new System.Drawing.Size(538, 620);
-			base.ControlBox = false;
-			base.Controls.Add(this.pnl_Command);
-			base.Controls.Add(this.pnl_40401);
-			base.Controls.Add(this.pnl_40301);
-			base.Controls.Add(this.pnl_40201);
-			base.Controls.Add(this.pnl_40101);
-			base.Name = "Frm_Calculate";
-			this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-			this.RightToLeftLayout = true;
-			base.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-			this.Text = "محاسبات";
-			this.pnl_40101.ResumeLayout(false);
-			this.pnl_40101.PerformLayout();
-			this.pnl_40201.ResumeLayout(false);
-			this.pnl_40201.PerformLayout();
-			this.pnl_40301.ResumeLayout(false);
-			this.pnl_40301.PerformLayout();
-			this.pnl_40401.ResumeLayout(false);
-			this.pnl_40401.PerformLayout();
-			this.pnl_Command.ResumeLayout(false);
-			base.ResumeLayout(false);
-
-
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Calculate));
+            this.pnl_40101 = new System.Windows.Forms.Panel();
+            this.txt_40101C2 = new System.Windows.Forms.TextBox();
+            this.txt_40101C1 = new System.Windows.Forms.TextBox();
+            this.Label6 = new System.Windows.Forms.Label();
+            this.txt_40101B = new System.Windows.Forms.TextBox();
+            this.Txt_D = new System.Windows.Forms.TextBox();
+            this.txt_rs = new System.Windows.Forms.TextBox();
+            this.Label4 = new System.Windows.Forms.Label();
+            this.Label3 = new System.Windows.Forms.Label();
+            this.Label2 = new System.Windows.Forms.Label();
+            this.Label1 = new System.Windows.Forms.Label();
+            this.pnl_40201 = new System.Windows.Forms.Panel();
+            this.chk_40201 = new System.Windows.Forms.CheckBox();
+            this.txt_40201C1 = new System.Windows.Forms.TextBox();
+            this.txt_40201C2 = new System.Windows.Forms.TextBox();
+            this.Label5 = new System.Windows.Forms.Label();
+            this.Label8 = new System.Windows.Forms.Label();
+            this.txt_40201B = new System.Windows.Forms.TextBox();
+            this.txt_F = new System.Windows.Forms.TextBox();
+            this.Label7 = new System.Windows.Forms.Label();
+            this.Label10 = new System.Windows.Forms.Label();
+            this.pnl_40301 = new System.Windows.Forms.Panel();
+            this.txt_Fasl_3 = new System.Windows.Forms.TextBox();
+            this.Label22 = new System.Windows.Forms.Label();
+            this.txt_Fasl_6 = new System.Windows.Forms.TextBox();
+            this.Label15 = new System.Windows.Forms.Label();
+            this.chk_40301 = new System.Windows.Forms.CheckBox();
+            this.txt_40301C1 = new System.Windows.Forms.TextBox();
+            this.txt_40301C2 = new System.Windows.Forms.TextBox();
+            this.Label9 = new System.Windows.Forms.Label();
+            this.Label11 = new System.Windows.Forms.Label();
+            this.txt_40301B = new System.Windows.Forms.TextBox();
+            this.Label14 = new System.Windows.Forms.Label();
+            this.txt_L = new System.Windows.Forms.TextBox();
+            this.Label12 = new System.Windows.Forms.Label();
+            this.pnl_40401 = new System.Windows.Forms.Panel();
+            this.chk_40401 = new System.Windows.Forms.CheckBox();
+            this.btn_Find_b = new System.Windows.Forms.Button();
+            this.btn_Find_a = new System.Windows.Forms.Button();
+            this.txt_b = new System.Windows.Forms.TextBox();
+            this.Label21 = new System.Windows.Forms.Label();
+            this.Label20 = new System.Windows.Forms.Label();
+            this.txt_S = new System.Windows.Forms.TextBox();
+            this.Label13 = new System.Windows.Forms.Label();
+            this.txt_40401B = new System.Windows.Forms.TextBox();
+            this.txt_a = new System.Windows.Forms.TextBox();
+            this.txt_k1 = new System.Windows.Forms.TextBox();
+            this.Label16 = new System.Windows.Forms.Label();
+            this.Label17 = new System.Windows.Forms.Label();
+            this.Label18 = new System.Windows.Forms.Label();
+            this.Label19 = new System.Windows.Forms.Label();
+            this.pnl_Command = new System.Windows.Forms.Panel();
+            this.btn_Ok = new System.Windows.Forms.Button();
+            this.btn_Cancel = new System.Windows.Forms.Button();
+            this.pnl_40101.SuspendLayout();
+            this.pnl_40201.SuspendLayout();
+            this.pnl_40301.SuspendLayout();
+            this.pnl_40401.SuspendLayout();
+            this.pnl_Command.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // pnl_40101
+            // 
+            this.pnl_40101.Controls.Add(this.txt_40101C2);
+            this.pnl_40101.Controls.Add(this.txt_40101C1);
+            this.pnl_40101.Controls.Add(this.Label6);
+            this.pnl_40101.Controls.Add(this.txt_40101B);
+            this.pnl_40101.Controls.Add(this.Txt_D);
+            this.pnl_40101.Controls.Add(this.txt_rs);
+            this.pnl_40101.Controls.Add(this.Label4);
+            this.pnl_40101.Controls.Add(this.Label3);
+            this.pnl_40101.Controls.Add(this.Label2);
+            this.pnl_40101.Controls.Add(this.Label1);
+            this.pnl_40101.Location = new System.Drawing.Point(28, 26);
+            this.pnl_40101.Name = "pnl_40101";
+            this.pnl_40101.Size = new System.Drawing.Size(481, 90);
+            this.pnl_40101.TabIndex = 0;
+            // 
+            // txt_40101C2
+            // 
+            this.txt_40101C2.BackColor = System.Drawing.SystemColors.Control;
+            this.txt_40101C2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_40101C2.ForeColor = System.Drawing.Color.Blue;
+            this.txt_40101C2.Location = new System.Drawing.Point(188, 17);
+            this.txt_40101C2.Name = "txt_40101C2";
+            this.txt_40101C2.Size = new System.Drawing.Size(41, 13);
+            this.txt_40101C2.TabIndex = 12;
+            this.txt_40101C2.Text = "123000";
+            // 
+            // txt_40101C1
+            // 
+            this.txt_40101C1.BackColor = System.Drawing.SystemColors.Control;
+            this.txt_40101C1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_40101C1.ForeColor = System.Drawing.Color.Blue;
+            this.txt_40101C1.Location = new System.Drawing.Point(121, 17);
+            this.txt_40101C1.Name = "txt_40101C1";
+            this.txt_40101C1.Size = new System.Drawing.Size(52, 13);
+            this.txt_40101C1.TabIndex = 11;
+            this.txt_40101C1.Text = "11740000";
+            // 
+            // Label6
+            // 
+            this.Label6.AutoSize = true;
+            this.Label6.Location = new System.Drawing.Point(174, 17);
+            this.Label6.Name = "Label6";
+            this.Label6.Size = new System.Drawing.Size(13, 13);
+            this.Label6.TabIndex = 9;
+            this.Label6.Text = "+";
+            // 
+            // txt_40101B
+            // 
+            this.txt_40101B.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.txt_40101B.ForeColor = System.Drawing.Color.Red;
+            this.txt_40101B.Location = new System.Drawing.Point(332, 13);
+            this.txt_40101B.Name = "txt_40101B";
+            this.txt_40101B.Size = new System.Drawing.Size(90, 20);
+            this.txt_40101B.TabIndex = 7;
             this.txt_40101B.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txt_40101B_KeyUp);
+            // 
+            // Txt_D
+            // 
+            this.Txt_D.Location = new System.Drawing.Point(357, 50);
+            this.Txt_D.Name = "Txt_D";
+            this.Txt_D.Size = new System.Drawing.Size(90, 20);
+            this.Txt_D.TabIndex = 6;
             this.Txt_D.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Txt_D_KeyUp);
+            // 
+            // txt_rs
+            // 
+            this.txt_rs.Enabled = false;
+            this.txt_rs.Location = new System.Drawing.Point(134, 50);
+            this.txt_rs.Name = "txt_rs";
+            this.txt_rs.Size = new System.Drawing.Size(57, 20);
+            this.txt_rs.TabIndex = 5;
             this.txt_rs.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txt_rs_KeyUp);
-            this.txt_b.TextChanged += new System.EventHandler(this.txt_b_TextChanged);
-            this.txt_S.TextChanged += new System.EventHandler(this.txt_S_TextChanged);
-            this.txt_a.TextChanged += new System.EventHandler(this.txt_a_TextChanged);
-            this.txt_k1.TextChanged += new System.EventHandler(this.txt_k1_TextChanged);
-            this.btn_Find_a.Click += new System.EventHandler(this.btn_Find_a_Click);
-            this.btn_Ok.Click += new System.EventHandler(this.btn_Ok_Click);
-            this.btn_Cancel.Click += new System.EventHandler(this.btn_Cancel_Click);
+            // 
+            // Label4
+            // 
+            this.Label4.AutoSize = true;
+            this.Label4.Location = new System.Drawing.Point(235, 53);
+            this.Label4.Name = "Label4";
+            this.Label4.Size = new System.Drawing.Size(123, 13);
+            this.Label4.TabIndex = 3;
+            this.Label4.Text = "= مجموع عمق حفاری (D) ";
+            // 
+            // Label3
+            // 
+            this.Label3.AutoSize = true;
+            this.Label3.Location = new System.Drawing.Point(26, 53);
+            this.Label3.Name = "Label3";
+            this.Label3.Size = new System.Drawing.Size(119, 13);
+            this.Label3.TabIndex = 2;
+            this.Label3.Text = "=  ضریب منطقه ای  ( rs ) ";
+            // 
+            // Label2
+            // 
+            this.Label2.ForeColor = System.Drawing.Color.Blue;
+            this.Label2.Location = new System.Drawing.Point(229, 16);
+            this.Label2.Name = "Label2";
+            this.Label2.Size = new System.Drawing.Size(100, 13);
+            this.Label2.TabIndex = 1;
+            this.Label2.Text = " = * ( 1 + rs ) / 2 * D";
+            this.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // Label1
+            // 
+            this.Label1.AutoSize = true;
+            this.Label1.ForeColor = System.Drawing.Color.Blue;
+            this.Label1.Location = new System.Drawing.Point(59, 16);
+            this.Label1.Name = "Label1";
+            this.Label1.Size = new System.Drawing.Size(64, 13);
+            this.Label1.TabIndex = 0;
+            this.Label1.Text = "=بهای واحد ";
+            // 
+            // pnl_40201
+            // 
+            this.pnl_40201.Controls.Add(this.chk_40201);
+            this.pnl_40201.Controls.Add(this.txt_40201C1);
+            this.pnl_40201.Controls.Add(this.txt_40201C2);
+            this.pnl_40201.Controls.Add(this.Label5);
+            this.pnl_40201.Controls.Add(this.Label8);
+            this.pnl_40201.Controls.Add(this.txt_40201B);
+            this.pnl_40201.Controls.Add(this.txt_F);
+            this.pnl_40201.Controls.Add(this.Label7);
+            this.pnl_40201.Controls.Add(this.Label10);
+            this.pnl_40201.Location = new System.Drawing.Point(28, 131);
+            this.pnl_40201.Name = "pnl_40201";
+            this.pnl_40201.Size = new System.Drawing.Size(481, 90);
+            this.pnl_40201.TabIndex = 1;
+            // 
+            // chk_40201
+            // 
+            this.chk_40201.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.chk_40201.Location = new System.Drawing.Point(73, 52);
+            this.chk_40201.Name = "chk_40201";
+            this.chk_40201.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.chk_40201.Size = new System.Drawing.Size(138, 17);
+            this.chk_40201.TabIndex = 17;
+            this.chk_40201.Text = "با اعمال ضریب منطقه ای";
+            this.chk_40201.UseVisualStyleBackColor = true;
             this.chk_40201.CheckedChanged += new System.EventHandler(this.chk_40201_CheckedChanged);
+            // 
+            // txt_40201C1
+            // 
+            this.txt_40201C1.BackColor = System.Drawing.SystemColors.Control;
+            this.txt_40201C1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_40201C1.ForeColor = System.Drawing.Color.Blue;
+            this.txt_40201C1.Location = new System.Drawing.Point(168, 17);
+            this.txt_40201C1.Name = "txt_40201C1";
+            this.txt_40201C1.Size = new System.Drawing.Size(50, 13);
+            this.txt_40201C1.TabIndex = 16;
+            this.txt_40201C1.Text = "4370000";
+            // 
+            // txt_40201C2
+            // 
+            this.txt_40201C2.BackColor = System.Drawing.SystemColors.Control;
+            this.txt_40201C2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_40201C2.ForeColor = System.Drawing.Color.Blue;
+            this.txt_40201C2.Location = new System.Drawing.Point(229, 17);
+            this.txt_40201C2.Name = "txt_40201C2";
+            this.txt_40201C2.Size = new System.Drawing.Size(23, 13);
+            this.txt_40201C2.TabIndex = 15;
+            this.txt_40201C2.Text = "0.05";
+            // 
+            // Label5
+            // 
+            this.Label5.AutoSize = true;
+            this.Label5.ForeColor = System.Drawing.Color.Blue;
+            this.Label5.Location = new System.Drawing.Point(215, 17);
+            this.Label5.Name = "Label5";
+            this.Label5.Size = new System.Drawing.Size(13, 13);
+            this.Label5.TabIndex = 14;
+            this.Label5.Text = "+";
+            // 
+            // Label8
+            // 
+            this.Label8.ForeColor = System.Drawing.Color.Blue;
+            this.Label8.Location = new System.Drawing.Point(252, 17);
+            this.Label8.Name = "Label8";
+            this.Label8.Size = new System.Drawing.Size(32, 13);
+            this.Label8.TabIndex = 13;
+            this.Label8.Text = "= * F ";
+            this.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // txt_40201B
+            // 
+            this.txt_40201B.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.txt_40201B.ForeColor = System.Drawing.Color.Red;
+            this.txt_40201B.Location = new System.Drawing.Point(287, 14);
+            this.txt_40201B.Name = "txt_40201B";
+            this.txt_40201B.Size = new System.Drawing.Size(90, 20);
+            this.txt_40201B.TabIndex = 7;
+            // 
+            // txt_F
+            // 
+            this.txt_F.Location = new System.Drawing.Point(309, 50);
+            this.txt_F.Name = "txt_F";
+            this.txt_F.Size = new System.Drawing.Size(90, 20);
+            this.txt_F.TabIndex = 6;
+            // 
+            // Label7
+            // 
+            this.Label7.AutoSize = true;
+            this.Label7.Location = new System.Drawing.Point(211, 53);
+            this.Label7.Name = "Label7";
+            this.Label7.Size = new System.Drawing.Size(107, 13);
+            this.Label7.TabIndex = 3;
+            this.Label7.Text = "= مجموع فصل 2 ( F )  ";
+            this.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // Label10
+            // 
+            this.Label10.AutoSize = true;
+            this.Label10.ForeColor = System.Drawing.Color.Blue;
+            this.Label10.Location = new System.Drawing.Point(103, 16);
+            this.Label10.Name = "Label10";
+            this.Label10.Size = new System.Drawing.Size(64, 13);
+            this.Label10.TabIndex = 0;
+            this.Label10.Text = "=بهای واحد ";
+            // 
+            // pnl_40301
+            // 
+            this.pnl_40301.Controls.Add(this.txt_Fasl_3);
+            this.pnl_40301.Controls.Add(this.Label22);
+            this.pnl_40301.Controls.Add(this.txt_Fasl_6);
+            this.pnl_40301.Controls.Add(this.Label15);
+            this.pnl_40301.Controls.Add(this.chk_40301);
+            this.pnl_40301.Controls.Add(this.txt_40301C1);
+            this.pnl_40301.Controls.Add(this.txt_40301C2);
+            this.pnl_40301.Controls.Add(this.Label9);
+            this.pnl_40301.Controls.Add(this.Label11);
+            this.pnl_40301.Controls.Add(this.txt_40301B);
+            this.pnl_40301.Controls.Add(this.Label14);
+            this.pnl_40301.Controls.Add(this.txt_L);
+            this.pnl_40301.Controls.Add(this.Label12);
+            this.pnl_40301.Location = new System.Drawing.Point(28, 236);
+            this.pnl_40301.Name = "pnl_40301";
+            this.pnl_40301.Size = new System.Drawing.Size(481, 155);
+            this.pnl_40301.TabIndex = 2;
+            // 
+            // txt_Fasl_3
+            // 
+            this.txt_Fasl_3.Location = new System.Drawing.Point(286, 50);
+            this.txt_Fasl_3.Name = "txt_Fasl_3";
+            this.txt_Fasl_3.Size = new System.Drawing.Size(90, 20);
+            this.txt_Fasl_3.TabIndex = 27;
+            // 
+            // Label22
+            // 
+            this.Label22.AutoSize = true;
+            this.Label22.Location = new System.Drawing.Point(201, 53);
+            this.Label22.Name = "Label22";
+            this.Label22.Size = new System.Drawing.Size(86, 13);
+            this.Label22.TabIndex = 26;
+            this.Label22.Text = " = مجموع فصل 3 ";
+            // 
+            // txt_Fasl_6
+            // 
+            this.txt_Fasl_6.Location = new System.Drawing.Point(286, 76);
+            this.txt_Fasl_6.Name = "txt_Fasl_6";
+            this.txt_Fasl_6.Size = new System.Drawing.Size(90, 20);
+            this.txt_Fasl_6.TabIndex = 25;
+            // 
+            // Label15
+            // 
+            this.Label15.AutoSize = true;
+            this.Label15.Location = new System.Drawing.Point(197, 79);
+            this.Label15.Name = "Label15";
+            this.Label15.Size = new System.Drawing.Size(89, 13);
+            this.Label15.TabIndex = 24;
+            this.Label15.Text = "= مجموع فصل 6   ";
+            // 
+            // chk_40301
+            // 
+            this.chk_40301.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.chk_40301.Location = new System.Drawing.Point(57, 78);
+            this.chk_40301.Name = "chk_40301";
+            this.chk_40301.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.chk_40301.Size = new System.Drawing.Size(138, 17);
+            this.chk_40301.TabIndex = 23;
+            this.chk_40301.Text = "با اعمال ضریب منطقه ای";
+            this.chk_40301.UseVisualStyleBackColor = true;
             this.chk_40301.CheckedChanged += new System.EventHandler(this.chk_40301_CheckedChanged);
+            // 
+            // txt_40301C1
+            // 
+            this.txt_40301C1.BackColor = System.Drawing.SystemColors.Control;
+            this.txt_40301C1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_40301C1.ForeColor = System.Drawing.Color.Blue;
+            this.txt_40301C1.Location = new System.Drawing.Point(167, 16);
+            this.txt_40301C1.Name = "txt_40301C1";
+            this.txt_40301C1.Size = new System.Drawing.Size(50, 13);
+            this.txt_40301C1.TabIndex = 22;
+            this.txt_40301C1.Text = "1531000";
+            // 
+            // txt_40301C2
+            // 
+            this.txt_40301C2.BackColor = System.Drawing.SystemColors.Control;
+            this.txt_40301C2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_40301C2.ForeColor = System.Drawing.Color.Blue;
+            this.txt_40301C2.Location = new System.Drawing.Point(228, 16);
+            this.txt_40301C2.Name = "txt_40301C2";
+            this.txt_40301C2.Size = new System.Drawing.Size(23, 13);
+            this.txt_40301C2.TabIndex = 21;
+            this.txt_40301C2.Text = "0.07";
+            // 
+            // Label9
+            // 
+            this.Label9.AutoSize = true;
+            this.Label9.ForeColor = System.Drawing.Color.Blue;
+            this.Label9.Location = new System.Drawing.Point(214, 16);
+            this.Label9.Name = "Label9";
+            this.Label9.Size = new System.Drawing.Size(13, 13);
+            this.Label9.TabIndex = 20;
+            this.Label9.Text = "+";
+            // 
+            // Label11
+            // 
+            this.Label11.ForeColor = System.Drawing.Color.Blue;
+            this.Label11.Location = new System.Drawing.Point(251, 16);
+            this.Label11.Name = "Label11";
+            this.Label11.Size = new System.Drawing.Size(32, 13);
+            this.Label11.TabIndex = 19;
+            this.Label11.Text = "= * L ";
+            this.Label11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // txt_40301B
+            // 
+            this.txt_40301B.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.txt_40301B.ForeColor = System.Drawing.Color.Red;
+            this.txt_40301B.Location = new System.Drawing.Point(286, 13);
+            this.txt_40301B.Name = "txt_40301B";
+            this.txt_40301B.Size = new System.Drawing.Size(90, 20);
+            this.txt_40301B.TabIndex = 18;
+            // 
+            // Label14
+            // 
+            this.Label14.AutoSize = true;
+            this.Label14.ForeColor = System.Drawing.Color.Blue;
+            this.Label14.Location = new System.Drawing.Point(102, 15);
+            this.Label14.Name = "Label14";
+            this.Label14.Size = new System.Drawing.Size(64, 13);
+            this.Label14.TabIndex = 17;
+            this.Label14.Text = " =بهای واحد";
+            // 
+            // txt_L
+            // 
+            this.txt_L.Location = new System.Drawing.Point(286, 102);
+            this.txt_L.Name = "txt_L";
+            this.txt_L.Size = new System.Drawing.Size(90, 20);
+            this.txt_L.TabIndex = 6;
+            // 
+            // Label12
+            // 
+            this.Label12.AutoSize = true;
+            this.Label12.Location = new System.Drawing.Point(157, 105);
+            this.Label12.Name = "Label12";
+            this.Label12.Size = new System.Drawing.Size(128, 13);
+            this.Label12.TabIndex = 3;
+            this.Label12.Text = "= مجموع فصول 3 و 6  ( L )";
+            // 
+            // pnl_40401
+            // 
+            this.pnl_40401.Controls.Add(this.chk_40401);
+            this.pnl_40401.Controls.Add(this.btn_Find_b);
+            this.pnl_40401.Controls.Add(this.btn_Find_a);
+            this.pnl_40401.Controls.Add(this.txt_b);
+            this.pnl_40401.Controls.Add(this.Label21);
+            this.pnl_40401.Controls.Add(this.Label20);
+            this.pnl_40401.Controls.Add(this.txt_S);
+            this.pnl_40401.Controls.Add(this.Label13);
+            this.pnl_40401.Controls.Add(this.txt_40401B);
+            this.pnl_40401.Controls.Add(this.txt_a);
+            this.pnl_40401.Controls.Add(this.txt_k1);
+            this.pnl_40401.Controls.Add(this.Label16);
+            this.pnl_40401.Controls.Add(this.Label17);
+            this.pnl_40401.Controls.Add(this.Label18);
+            this.pnl_40401.Controls.Add(this.Label19);
+            this.pnl_40401.Location = new System.Drawing.Point(28, 397);
+            this.pnl_40401.Name = "pnl_40401";
+            this.pnl_40401.Size = new System.Drawing.Size(481, 167);
+            this.pnl_40401.TabIndex = 3;
+            // 
+            // chk_40401
+            // 
+            this.chk_40401.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.chk_40401.Location = new System.Drawing.Point(59, 49);
+            this.chk_40401.Name = "chk_40401";
+            this.chk_40401.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.chk_40401.Size = new System.Drawing.Size(138, 17);
+            this.chk_40401.TabIndex = 210;
+            this.chk_40401.Text = "با اعمال ضریب منطقه ای";
+            this.chk_40401.UseVisualStyleBackColor = true;
             this.chk_40401.CheckedChanged += new System.EventHandler(this.chk_40401_CheckedChanged);
+            // 
+            // btn_Find_b
+            // 
+            this.btn_Find_b.BackColor = System.Drawing.Color.LightGray;
+            this.btn_Find_b.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.btn_Find_b.ForeColor = System.Drawing.Color.Black;
+            this.btn_Find_b.Image = ((System.Drawing.Image)(resources.GetObject("btn_Find_b.Image")));
+            this.btn_Find_b.Location = new System.Drawing.Point(439, 126);
+            this.btn_Find_b.Name = "btn_Find_b";
+            this.btn_Find_b.Size = new System.Drawing.Size(24, 24);
+            this.btn_Find_b.TabIndex = 209;
+            this.btn_Find_b.UseVisualStyleBackColor = false;
             this.btn_Find_b.Click += new System.EventHandler(this.btn_Find_b_Click);
+            // 
+            // btn_Find_a
+            // 
+            this.btn_Find_a.BackColor = System.Drawing.Color.LightGray;
+            this.btn_Find_a.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.btn_Find_a.ForeColor = System.Drawing.Color.Black;
+            this.btn_Find_a.Image = ((System.Drawing.Image)(resources.GetObject("btn_Find_a.Image")));
+            this.btn_Find_a.Location = new System.Drawing.Point(439, 99);
+            this.btn_Find_a.Name = "btn_Find_a";
+            this.btn_Find_a.Size = new System.Drawing.Size(24, 24);
+            this.btn_Find_a.TabIndex = 208;
+            this.btn_Find_a.UseVisualStyleBackColor = false;
+            this.btn_Find_a.Click += new System.EventHandler(this.btn_Find_a_Click);
+            // 
+            // txt_b
+            // 
+            this.txt_b.Location = new System.Drawing.Point(349, 128);
+            this.txt_b.Name = "txt_b";
+            this.txt_b.Size = new System.Drawing.Size(90, 20);
+            this.txt_b.TabIndex = 12;
+            this.txt_b.TextChanged += new System.EventHandler(this.txt_b_TextChanged);
+            // 
+            // Label21
+            // 
+            this.Label21.AutoSize = true;
+            this.Label21.Location = new System.Drawing.Point(2, 131);
+            this.Label21.Name = "Label21";
+            this.Label21.Size = new System.Drawing.Size(349, 13);
+            this.Label21.TabIndex = 11;
+            this.Label21.Text = "=ضریب مربوط به مستحدثات از جدول 4 بخش اول فهرست بهای ژئوتکنیک ( b )";
+            // 
+            // Label20
+            // 
+            this.Label20.AutoSize = true;
+            this.Label20.Location = new System.Drawing.Point(172, 104);
+            this.Label20.Name = "Label20";
+            this.Label20.Size = new System.Drawing.Size(57, 13);
+            this.Label20.TabIndex = 10;
+            this.Label20.Text = "( a8 تا a1 )";
+            this.Label20.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // txt_S
+            // 
+            this.txt_S.Location = new System.Drawing.Point(349, 47);
+            this.txt_S.Name = "txt_S";
+            this.txt_S.Size = new System.Drawing.Size(90, 20);
+            this.txt_S.TabIndex = 9;
+            this.txt_S.TextChanged += new System.EventHandler(this.txt_S_TextChanged);
+            // 
+            // Label13
+            // 
+            this.Label13.AutoSize = true;
+            this.Label13.Location = new System.Drawing.Point(202, 50);
+            this.Label13.Name = "Label13";
+            this.Label13.Size = new System.Drawing.Size(149, 13);
+            this.Label13.TabIndex = 8;
+            this.Label13.Text = "= مجموع فصول 1 ، 2 و 3 ( S )  ";
+            // 
+            // txt_40401B
+            // 
+            this.txt_40401B.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.txt_40401B.ForeColor = System.Drawing.Color.Red;
+            this.txt_40401B.Location = new System.Drawing.Point(260, 11);
+            this.txt_40401B.Name = "txt_40401B";
+            this.txt_40401B.Size = new System.Drawing.Size(90, 20);
+            this.txt_40401B.TabIndex = 7;
+            // 
+            // txt_a
+            // 
+            this.txt_a.Location = new System.Drawing.Point(349, 101);
+            this.txt_a.Name = "txt_a";
+            this.txt_a.Size = new System.Drawing.Size(90, 20);
+            this.txt_a.TabIndex = 6;
+            this.txt_a.TextChanged += new System.EventHandler(this.txt_a_TextChanged);
+            // 
+            // txt_k1
+            // 
+            this.txt_k1.Location = new System.Drawing.Point(349, 74);
+            this.txt_k1.Name = "txt_k1";
+            this.txt_k1.Size = new System.Drawing.Size(90, 20);
+            this.txt_k1.TabIndex = 5;
+            this.txt_k1.TextChanged += new System.EventHandler(this.txt_k1_TextChanged);
+            // 
+            // Label16
+            // 
+            this.Label16.AutoSize = true;
+            this.Label16.Location = new System.Drawing.Point(244, 104);
+            this.Label16.Name = "Label16";
+            this.Label16.Size = new System.Drawing.Size(106, 13);
+            this.Label16.TabIndex = 3;
+            this.Label16.Text = "=حاصل ضرب ضرایب a";
+            this.Label16.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // Label17
+            // 
+            this.Label17.AutoSize = true;
+            this.Label17.Location = new System.Drawing.Point(46, 77);
+            this.Label17.Name = "Label17";
+            this.Label17.Size = new System.Drawing.Size(305, 13);
+            this.Label17.TabIndex = 2;
+            this.Label17.Text = "=ضریب حق الزحمه جدول 1 بخش اول فهرست بهای ژئوتکنیک ( k1 ) ";
+            // 
+            // Label18
+            // 
+            this.Label18.AutoSize = true;
+            this.Label18.ForeColor = System.Drawing.Color.Blue;
+            this.Label18.Location = new System.Drawing.Point(193, 14);
+            this.Label18.Name = "Label18";
+            this.Label18.Size = new System.Drawing.Size(65, 13);
+            this.Label18.TabIndex = 1;
+            this.Label18.Text = "=k1 .a .b .S ";
+            // 
+            // Label19
+            // 
+            this.Label19.AutoSize = true;
+            this.Label19.ForeColor = System.Drawing.Color.Blue;
+            this.Label19.Location = new System.Drawing.Point(127, 13);
+            this.Label19.Name = "Label19";
+            this.Label19.Size = new System.Drawing.Size(64, 13);
+            this.Label19.TabIndex = 0;
+            this.Label19.Text = "=بهای واحد ";
+            // 
+            // pnl_Command
+            // 
+            this.pnl_Command.Controls.Add(this.btn_Ok);
+            this.pnl_Command.Controls.Add(this.btn_Cancel);
+            this.pnl_Command.Location = new System.Drawing.Point(109, 577);
+            this.pnl_Command.Name = "pnl_Command";
+            this.pnl_Command.Size = new System.Drawing.Size(321, 31);
+            this.pnl_Command.TabIndex = 6;
+            // 
+            // btn_Ok
+            // 
+            this.btn_Ok.Location = new System.Drawing.Point(242, 4);
+            this.btn_Ok.Name = "btn_Ok";
+            this.btn_Ok.Size = new System.Drawing.Size(75, 23);
+            this.btn_Ok.TabIndex = 6;
+            this.btn_Ok.Text = "Ok";
+            this.btn_Ok.UseVisualStyleBackColor = true;
+            this.btn_Ok.Click += new System.EventHandler(this.btn_Ok_Click);
+            // 
+            // btn_Cancel
+            // 
+            this.btn_Cancel.Location = new System.Drawing.Point(3, 4);
+            this.btn_Cancel.Name = "btn_Cancel";
+            this.btn_Cancel.Size = new System.Drawing.Size(75, 23);
+            this.btn_Cancel.TabIndex = 5;
+            this.btn_Cancel.Text = "Cancel";
+            this.btn_Cancel.UseVisualStyleBackColor = true;
+            this.btn_Cancel.Click += new System.EventHandler(this.btn_Cancel_Click);
+            // 
+            // Frm_Calculate
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(538, 620);
+            this.ControlBox = false;
+            this.Controls.Add(this.pnl_Command);
+            this.Controls.Add(this.pnl_40401);
+            this.Controls.Add(this.pnl_40301);
+            this.Controls.Add(this.pnl_40201);
+            this.Controls.Add(this.pnl_40101);
+            this.Name = "Frm_Calculate";
+            this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.RightToLeftLayout = true;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "محاسبات";
+            this.Load += new System.EventHandler(this.Frm_Calculate_Load);
+            this.pnl_40101.ResumeLayout(false);
+            this.pnl_40101.PerformLayout();
+            this.pnl_40201.ResumeLayout(false);
+            this.pnl_40201.PerformLayout();
+            this.pnl_40301.ResumeLayout(false);
+            this.pnl_40301.PerformLayout();
+            this.pnl_40401.ResumeLayout(false);
+            this.pnl_40401.PerformLayout();
+            this.pnl_Command.ResumeLayout(false);
+            this.ResumeLayout(false);
+
         }
 
 		private void Txt_D_KeyUp(object sender, KeyEventArgs e)
@@ -1475,5 +1640,10 @@ namespace GeoBaha
 				ProjectData.ClearProjectError();
 			}
 		}
-	}
+
+        private void Frm_Calculate_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
 }

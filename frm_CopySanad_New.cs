@@ -42,8 +42,16 @@ namespace GeoBaha
             TableSanadSum = new DataTable();
             AsnadDetailTable = new DataTable();
         }
+        private void frm_CopySanad_New_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+            {
+                this.Close();
+            }
+        }
 
-private void frm_CopySanad_New_Load(object sender, EventArgs e)
+
+        private void frm_CopySanad_New_Load(object sender, EventArgs e)
 		{
 			cmbo_NoaSanad.Items.Clear();
 			cmbo_NoaSanad.Items.Add("فاکتور");

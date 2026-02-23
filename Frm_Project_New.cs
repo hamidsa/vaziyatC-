@@ -48,6 +48,24 @@ namespace GeoBaha
         public DataTable TableFosoolSum;
         public DataTable TableSanadSum;
         public DataTable AsnadDetailTable;
+        public string ProjectCode_filter;
+
+        public string ProjectAddress_filter;
+
+        public string ProjectTel_filter;
+
+        public string ProjectOstan_filter;
+
+        public string ProjectShahr_filter;
+
+        public string ProjectBakhsh_filter;
+
+        public string ProjectFehrestFile_filter;
+
+
+
+        public ProjectDetailes Project;
+
 
         public Frm_Project_New()
         {
@@ -96,8 +114,8 @@ private void dtg_projectList_CellContentClick(object sender, DataGridViewCellEve
 
 private void dtg_project_SelectionChanged(object sender, EventArgs e)
 		{
-			dtg_project_SelectionChanged();
-		}
+            dtg_project_SelectionChanged(sender, e);
+        }
 
 private void txt_ProjectNameFltr_KeyDown(object sender, KeyEventArgs e)
 		{
@@ -498,7 +516,7 @@ private void btn_Exit_Click(object sender, EventArgs e)
 
 private void Btn_Save_Click(object sender, EventArgs e)
 		{
-			Btn_Save_Click();
+			Btn_Save_Click(sender, e);
 		}
 
 public void btn_Insert_Click(object sender, EventArgs e)
@@ -1184,7 +1202,7 @@ public void frm_Project_btn_insert()
 			BtnCommand = "Insert";
 			if (pnl_Project.BackColor == Color.LightPink)
 			{
-				dtg_project_SelectionChanged();
+				dtg_project_SelectionChanged(null, EventArgs.Empty);
 			}
 			pnl_Project.BackColor = Color.LightPink;
 			Module1.MyConn.Close();

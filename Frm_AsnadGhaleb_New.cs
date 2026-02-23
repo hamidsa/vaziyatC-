@@ -43,7 +43,14 @@ namespace GeoBaha
             AsnadDetailTable = new DataTable();
         }
 
-private void Frm_AsnadGhaleb_New_Load(object sender, EventArgs e)
+        private void Frm_AsnadGhaleb_New_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+            {
+                this.Close();
+            }
+        }
+        private void Frm_AsnadGhaleb_New_Load(object sender, EventArgs e)
 		{
 			base.TopMost = false;
 			Module1.GhalebNo = Conversions.ToString(0);

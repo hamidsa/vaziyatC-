@@ -28,6 +28,28 @@ namespace GeoBaha
         public DataTable TableSanadSum;
         public DataTable AsnadDetailTable;
 
+        public string EsmRamz_filter;
+
+        public string ShName_filter;
+
+        public string EghtesadiCode_filter;
+
+        public string AvarezShahrdari_filter;
+
+        public string ArzeshAfzoode_filter;
+
+        public string OnvanMabna_filter;
+
+        public string OnvanFactor_filter;
+
+        public string MatnName_filter;
+
+        public string SahebEmza_filter;
+
+        public string Semat_filter;
+
+
+
         public frm_AsnadOnvan_New()
         {
             InitializeComponent();
@@ -44,8 +66,14 @@ namespace GeoBaha
             TableSanadSum = new DataTable();
             AsnadDetailTable = new DataTable();
         }
-
-public void Load_dtg_AsnadOnvan()
+        private void frm_AsnadOnvan_New_Load(object sender, EventArgs e)
+        {
+            // کدهای مربوط به بارگذاری فرم frm_AsnadOnvan_New
+            // مثلاً:
+            // Module1.Load_Cmbo(cmbo_Example, "table", "field", "");
+            // LoadData();
+        }
+        public void Load_dtg_AsnadOnvan()
 		{
 			DataTable dataTable = new DataTable();
 			string[] array = new string[10];

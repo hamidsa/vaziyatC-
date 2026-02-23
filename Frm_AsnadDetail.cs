@@ -2708,8 +2708,23 @@ namespace GeoBaha
 			int lErl = default(int);
 			try
 			{
-				Module1.CurrRow = dtg_AsnadDetail.CurrentRow.Index;
-			}
+                //Module1.CurrRow = dtg_AsnadDetail.CurrentRow.Index;
+                if (dtg_AsnadDetail.CurrentRow != null)
+                {
+                    Module1.CurrRow = dtg_AsnadDetail.CurrentRow.Index;
+                }
+                else if (dtg_AsnadDetail.Rows.Count > 0)
+                {
+                    // اگر هیچ سطری انتخاب نشده، اولین سطر را انتخاب کن
+                    dtg_AsnadDetail.Rows[0].Selected = true;
+                    dtg_AsnadDetail.CurrentCell = dtg_AsnadDetail.Rows[0].Cells[0];
+                    Module1.CurrRow = 0;
+                }
+                else
+                {
+                    Module1.CurrRow = -1; // یا هر مقدار پیش‌فرض دیگر
+                }
+            }
 			catch (Exception ex)
 			{
 				ProjectData.SetProjectError(ex, lErl);

@@ -101,7 +101,31 @@ namespace GeoBaha
         public DataTable TableFosoolSum;
         public DataTable TableSanadSum;
         public DataTable AsnadDetailTable;
+        public FehrestFaslDetailes Fasl;
 
+        public FehrestItemDetailes Item;
+
+        public string FaslCode_Filter;
+
+        public string FaslComment_Filter;
+
+        public string ZaribCode_Filter;
+
+        public string ItemNo_Filter;
+
+        public string ItemSharh_Filter;
+
+        public string ItemVahedSharh_Filter;
+
+        public string ItemBahaVahed_Filter;
+
+        public string ItemFasl_Filter;
+
+        public string GroupName_Filter;
+
+        public string ItemNoa_Filter;
+
+ 
         public Frm_FehrestDetail_New()
         {
             InitializeComponent();

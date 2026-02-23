@@ -69,6 +69,29 @@ namespace GeoBaha
         private byte DtgKarfarmaRefresh;
         private byte frmKarfarmaRefresh;
 
+        public string KarfarmaCode_filter;
+
+        public string KarfarmaName_filter;
+
+        public string KarfarmaOstan_filter;
+
+        public string KarfarmaShahr_filter;
+
+        public string KarfarmaEghtesadiCode_filter;
+
+        public string KarfarmaMelliCode_filter;
+
+        public string KarfarmaPostiCode_filter;
+
+        public string KarfarmaAddress_filter;
+
+        public string KarfarmaTel_filter;
+
+
+
+        public KarfarmaDetailes Karfarma;
+
+
         // Public DataTables
         public DataTable TableFosoolSum;
         public DataTable TableSanadSum;

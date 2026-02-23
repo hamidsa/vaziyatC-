@@ -36,6 +36,8 @@ namespace GeoBaha
         public DataTable TableSanadSum;
         public DataTable AsnadDetailTable;
 
+
+        public double k1;
         public Frm_Calculate_New()
         {
             InitializeComponent();
@@ -53,7 +55,23 @@ namespace GeoBaha
             AsnadDetailTable = new DataTable();
         }
 
-private void Txt_D_KeyUp(object sender, KeyEventArgs e)
+        private void Frm_Calculate_New_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+            {
+                this.Close();
+            }
+        }
+
+        private void Frm_Calculate_New_Load(object sender, EventArgs e)
+        {
+            // کدهای مربوط به بارگذاری فرم frm_AsnadOnvan_New
+            // مثلاً:
+            // Module1.Load_Cmbo(cmbo_Example, "table", "field", "");
+            // LoadData();
+        }
+
+        private void Txt_D_KeyUp(object sender, KeyEventArgs e)
 		{
 			if ((e.KeyValue >= 65) & (e.KeyValue <= 90))
 			{

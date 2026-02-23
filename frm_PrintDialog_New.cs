@@ -34,8 +34,15 @@ namespace GeoBaha
             TableSanadSum = new DataTable();
             AsnadDetailTable = new DataTable();
         }
+        private void frm_PrintDialog_New_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+            {
+                this.Close();
+            }
+        }
 
-private void OK_Button_Click(object sender, EventArgs e)
+        private void OK_Button_Click(object sender, EventArgs e)
 		{
 			if (rdo_Sanad.Checked)
 			{

@@ -11,7 +11,7 @@ namespace GeoBaha
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            Application.Run(new Frm_Main_New()); // یا فرم اصلی برنامه‌ات
+            Application.Run(new Frm_AsnadList_New()); // یا فرم اصلی برنامه‌ات
         }
     }
 }

@@ -783,8 +783,16 @@ public void Load_dtg_AsnadList()
 				{
 					try
 					{
-						Module1.CurrRow = dtg_AsnadList.CurrentRow.Index;
-					}
+                        //Module1.CurrRow = dtg_AsnadList.CurrentRow.Index;
+                        if (dtg_AsnadList.CurrentRow != null)
+                        {
+                            Module1.CurrRow = dtg_AsnadList.CurrentRow.Index;
+                        }
+                        else
+                        {
+                            Module1.CurrRow = 0; // یا مقدار پیش‌فرض دیگر
+                        }
+                    }
 					catch (Exception ex)
 					{
 						ProjectData.SetProjectError(ex, lErl);

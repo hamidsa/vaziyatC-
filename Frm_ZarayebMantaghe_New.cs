@@ -70,6 +70,26 @@ namespace GeoBaha
         private string BtnCommand;
         private string ChangeDtgOrPnl;
 
+        public string Ostan_filter;
+
+        public string OstanCode_filter;
+
+        public string Shahr_filter;
+
+        public string ShahrCode_filter;
+
+        public string Bakhsh_filter;
+
+        public string BakhshCode_filter;
+
+        public string ZaribMantaghe_filter;
+
+        public string ZaribCode_filter;
+
+        public string Comment_filter;
+
+        public ZarayebMantagheDetailes ZarayebMantaghe;
+
         // Public DataTables
         public DataTable TableFosoolSum;
         public DataTable TableSanadSum;

@@ -38,8 +38,15 @@ namespace GeoBaha
             TableSanadSum = new DataTable();
             AsnadDetailTable = new DataTable();
         }
+        private void frm_PrintSanad_New_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+            {
+                this.Close();
+            }
+        }
 
-private void btn_Exit_Click(object sender, EventArgs e)
+        private void btn_Exit_Click(object sender, EventArgs e)
 		{
 			CrystalReportViewer1.ReportSource = null;
 			CrystalReportViewer1.Refresh();

@@ -68,6 +68,7 @@ namespace GeoBaha
         public DataTable TableSanadSum;
         public DataTable AsnadDetailTable;
 
+        private SanadSumDetailes SanadSumRec;
         public Frm_AsnadDetail_New()
         {
             InitializeComponent();

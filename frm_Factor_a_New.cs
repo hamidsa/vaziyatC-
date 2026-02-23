@@ -34,8 +34,22 @@ namespace GeoBaha
             TableSanadSum = new DataTable();
             AsnadDetailTable = new DataTable();
         }
+        private void frm_Factor_a_New_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+            {
+                this.Close();
+            }
+        }
 
-private void frm_aFactor_Load(object sender, EventArgs e)
+        private void frm_Factor_a_New_Load(object sender, EventArgs e)
+        {
+
+            // Module1.Load_Cmbo(cmbo_Example, "table", "field", "");
+            // LoadData();
+        }
+
+        private void frm_aFactor_Load(object sender, EventArgs e)
 		{
 			base.TopMost = false;
 			foreach (Control control in base.Controls)

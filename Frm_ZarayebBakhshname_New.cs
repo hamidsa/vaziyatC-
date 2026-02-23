@@ -41,6 +41,10 @@ namespace GeoBaha
         public DataTable TableSanadSum;
         public DataTable AsnadDetailTable;
 
+
+        public BakhshnameDetailes Bakhshname;
+
+
         public Frm_ZarayebBakhshname_New()
         {
             InitializeComponent();
@@ -57,8 +61,14 @@ namespace GeoBaha
             TableSanadSum = new DataTable();
             AsnadDetailTable = new DataTable();
         }
+        private void Frm_ZarayebBakhshname_New_Load(object sender, EventArgs e)
+        {
 
-private void Frm_ZarayebBakhshname_New_KeyDown(object sender, KeyEventArgs e)
+            // Module1.Load_Cmbo(cmbo_Example, "table", "field", "");
+            // LoadData();
+        }
+
+        private void Frm_ZarayebBakhshname_New_KeyDown(object sender, KeyEventArgs e)
 		{
 			if (e.KeyCode == Keys.Escape)
 			{

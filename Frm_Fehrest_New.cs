@@ -36,6 +36,8 @@ namespace GeoBaha
         public DataTable TableFosoolSum;
         public DataTable TableSanadSum;
         public DataTable AsnadDetailTable;
+        public FehrestDetailes Fehrest;
+
 
         public Frm_Fehrest_New()
         {

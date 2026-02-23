@@ -325,14 +325,14 @@ namespace GeoBaha
 			cmd.CommandText = "SELECT REPLACE(REPLACE([Ostan],'ي',N'ی'),'ك',N'ک') As Ostan FROM [ZarayebMantaghe] group by [Ostan]";
 			SqlDataReader sqlDataReader = cmd.ExecuteReader();
 			dataTable.Load(sqlDataReader);
-			MyProject.Forms.Frm_Project.cmbo_ProjectOstan.DataSource = dataTable;
-			MyProject.Forms.Frm_Project.cmbo_ProjectOstan.DisplayMember = "Ostan";
-			MyProject.Forms.Frm_Project.cmbo_ProjectOstanFltr.Items.Clear();
+			MyProject.Forms.Frm_Project_New.cmbo_ProjectOstan.DataSource = dataTable;
+			MyProject.Forms.Frm_Project_New.cmbo_ProjectOstan.DisplayMember = "Ostan";
+			MyProject.Forms.Frm_Project_New.cmbo_ProjectOstanFltr.Items.Clear();
 			foreach (DataRow row in dataTable.Rows)
 			{
-				MyProject.Forms.Frm_Project.cmbo_ProjectOstanFltr.Items.Add(RuntimeHelpers.GetObjectValue(row["Ostan"]));
+				MyProject.Forms.Frm_Project_New.cmbo_ProjectOstanFltr.Items.Add(RuntimeHelpers.GetObjectValue(row["Ostan"]));
 			}
-			MyProject.Forms.Frm_Project.cmbo_ProjectOstanFltr.Text = "";
+			MyProject.Forms.Frm_Project_New.cmbo_ProjectOstanFltr.Text = "";
 			sqlDataReader.Close();
 		}
 
@@ -350,17 +350,17 @@ namespace GeoBaha
 			dataTable.Load(sqlDataReader);
 			if (0 - (FromFilter ? 1 : 0) == 0)
 			{
-				MyProject.Forms.Frm_Project.cmbo_ProjectShahr.DataSource = dataTable;
-				MyProject.Forms.Frm_Project.cmbo_ProjectShahr.DisplayMember = "Shahr";
+				MyProject.Forms.Frm_Project_New.cmbo_ProjectShahr.DataSource = dataTable;
+				MyProject.Forms.Frm_Project_New.cmbo_ProjectShahr.DisplayMember = "Shahr";
 				sqlDataReader.Close();
 				return;
 			}
-			MyProject.Forms.Frm_Project.cmbo_ProjectShahrFltr.Items.Clear();
+			MyProject.Forms.Frm_Project_New.cmbo_ProjectShahrFltr.Items.Clear();
 			foreach (DataRow row in dataTable.Rows)
 			{
-				MyProject.Forms.Frm_Project.cmbo_ProjectShahrFltr.Items.Add(RuntimeHelpers.GetObjectValue(row["Shahr"]));
+				MyProject.Forms.Frm_Project_New.cmbo_ProjectShahrFltr.Items.Add(RuntimeHelpers.GetObjectValue(row["Shahr"]));
 			}
-			MyProject.Forms.Frm_Project.cmbo_ProjectShahrFltr.Text = "";
+			MyProject.Forms.Frm_Project_New.cmbo_ProjectShahrFltr.Text = "";
 			sqlDataReader.Close();
 		}
 
@@ -378,14 +378,14 @@ namespace GeoBaha
 			dataTable.Load(sqlDataReader);
 			if (0 - (FromFilter ? 1 : 0) == 0)
 			{
-				MyProject.Forms.Frm_Project.cmbo_ProjectBakhsh.DataSource = dataTable;
-				MyProject.Forms.Frm_Project.cmbo_ProjectBakhsh.DisplayMember = "bakhsh";
+				MyProject.Forms.Frm_Project_New.cmbo_ProjectBakhsh.DataSource = dataTable;
+				MyProject.Forms.Frm_Project_New.cmbo_ProjectBakhsh.DisplayMember = "bakhsh";
 				return;
 			}
-			MyProject.Forms.Frm_Project.cmbo_ProjectBakhshFltr.Items.Clear();
+			MyProject.Forms.Frm_Project_New.cmbo_ProjectBakhshFltr.Items.Clear();
 			foreach (DataRow row in dataTable.Rows)
 			{
-				MyProject.Forms.Frm_Project.cmbo_ProjectBakhshFltr.Items.Add(RuntimeHelpers.GetObjectValue(row["Bakhsh"]));
+				MyProject.Forms.Frm_Project_New.cmbo_ProjectBakhshFltr.Items.Add(RuntimeHelpers.GetObjectValue(row["Bakhsh"]));
 			}
 			sqlDataReader.Close();
 		}
@@ -488,7 +488,7 @@ namespace GeoBaha
 							{
 								dataGridView.Rows[i].Cells[j].Style.BackColor = Color.LightGreen;
 							}
-							if (MyProject.Forms.Frm_AsnadList.chk_SabtNashode.Checked)
+							if (MyProject.Forms.Frm_AsnadList_New.chk_SabtNashode.Checked)
 							{
 								dataGridView.Rows[i].Cells[j].Style.ForeColor = Color.Red;
 							}
